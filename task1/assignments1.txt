@@ -37,7 +37,6 @@ p {
 /* valid */
 ._user-name {
 }
-
 /* valid */
 .-user-name {
 }
@@ -64,4 +63,25 @@ p {
 
 /* valid */
 .u {
+}
+
+6:
+/* bad */
+.USERNAME {
+}
+
+/* bad */
+.UserName {
+}
+
+/* good */
+.user-name {
+}
+
+/* bad */
+.userName {
+}
+
+/* bad */
+.usernameprofile {
 }
