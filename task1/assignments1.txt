@@ -1,0 +1,67 @@
+1:
+/* Any Element With Class Title */
+.title {
+}
+
+/* Any Element With id nav */
+#nav {
+}
+
+/Any Element With div /
+div {
+}
+
+/Any Element With h2 /
+h2 {
+}
+2:
+<!-- externel style -->
+<link rel="stylesheet" href="css/file.css" />
+
+<!-- internel style -->
+<style>
+p {
+  color: red;
+}
+</style>
+
+<!-- inline style -->
+<p style="color: blue;">This Is Our Paragraph</p>
+3:
+<!-- Write Path -->
+<link rel="stylesheet" href="asset/css/master.css" />
+4:
+<!-- Write Path -->
+<link rel="stylesheet" href="../source/css/main.css" />
+5:
+/* valid */
+._user-name {
+}
+
+/* valid */
+.-user-name {
+}
+
+/* valid */
+.-user-name {
+}
+
+/* not valid */
+.1user-name {
+}
+
+/* not valid */
+.@user-name {
+}
+
+/* not valid */
+.user@name {
+}
+
+/* valid */
+._user10name {
+}
+
+/* valid */
+.u {
+}
