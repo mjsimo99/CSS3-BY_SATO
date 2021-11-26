@@ -39,3 +39,53 @@
     width: 70%;
     margin: auto;
   }
+  div {
+    background-color: #DDD;
+    padding: 10px;
+    width: 70%;
+    margin: auto;
+    border-width: 10px;
+    border-color: red;
+    border-style: solid;
+    border: 10px solid red;
+  }
+  div {
+    background-color: #DDD;
+    width: 300px;
+    padding: 10px;
+    outline: 10px solid red;
+    border: 10px solid blue;
+  }
+  /*
+
+  Block
+
+  - Take Full Width If No Width
+  - Add Line Break
+  - Respect Padding, Margin, Width, Height
+
+  Inline
+
+  - Do Not Repsepct Width, Height
+  - Respect Padding And Margin [ Just Wight + Left ]
+  - Do Not Add Line Break
+  - Allow Elements Before And After It in The Same Line
+
+  Inline-Block
+
+  - Allow Elements Before And After It in The Same Line
+  - Respect Padding, Margin, Width, Height
+
+*/
+
+span {
+  background-color: #EEE;
+  display: inline-block;
+}
+div {
+  background-color: red;
+  margin: 10px 0;
+}
+.first {
+  visibility: hidden;
+}
