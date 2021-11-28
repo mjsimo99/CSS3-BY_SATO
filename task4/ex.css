@@ -1,0 +1,21 @@
+.parent div .title{
+    color: red;
+}
+.parent .title{
+    color: blue;
+}
+p, .title{
+    color: green;
+}
+.class , .classx{
+    background-color: rgb(116, 20, 20);
+    padding: 20px;
+    margin: 25px;
+    max-width: 400px;
+    max-height: 60px;
+    width: fit-content;
+    font-size: large;
+}
+.classx{
+overflow: hidden;
+}

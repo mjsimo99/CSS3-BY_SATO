@@ -89,3 +89,82 @@ div {
 .first {
   visibility: hidden;
 }
+.one {
+  border-bottom: 2px solid red;
+  color: red;
+}
+.two {
+  border-bottom: 2px solid green;
+  color: green;
+}
+.three {
+  border-bottom: 2px solid blue;
+  color: blue;
+}
+.four {
+  border-bottom: 2px solid black;
+  color: black;
+}
+.one,
+.two,
+.three,
+.four,
+.my-p {
+  padding: 15px;
+  margin: 12px 0;
+  background-color: #ededed;
+}
+div .special {
+  color: red;
+}
+div {
+  background-color: red;
+  padding: 10px;
+  display: inline-block;
+  max-width: 400px;
+}
+div {
+  width: 150px;
+  height: 150px;
+  background-color: #EEE;
+  margin: 20px auto;
+  border-radius: 6px;
+  overflow: scroll;
+} 
+/* 17 SHADOW TEXT */
+div {
+  background-color: #f9f9f9;
+  color: rebeccapurple;
+  text-shadow: 0 0 0 red;
+}
+/* 18 - Text – Alignment */
+div {
+  background-color: #f9f9f9;
+  text-align: center;
+  direction: ltr;
+}
+img {
+  vertical-align: middle;
+}
+/* 19 - Text – Decoration And Transform */
+div {
+  background-color: #f9f9f9;
+  text-transform: capitalize;
+}
+/* 20 - Text – Spacing */
+div {
+  background-color: #f9f9f9;
+  word-spacing: 5px;
+}
+/* 21 - Text – Overflow And Use Cases */
+div {
+  background-color: #ddd;
+  padding: 10px;
+  width: 200px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+div:hover {
+  overflow: visible;
+}

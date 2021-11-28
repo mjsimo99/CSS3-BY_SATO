@@ -1,0 +1,56 @@
+.div1 , .shadow{
+    font-size: 50px;
+    padding: 20px;
+    width: fit-content;
+    background-color: #f9f9f9;
+    min-width: 510px;
+    text-align: center;
+}
+.div1 {
+    background-color: #f9f9f9;
+
+}
+.shadow{
+    font-size: 100px; 
+    text-transform: capitalize;
+    text-shadow: 2px 2px 0px rgb(254, 49, 3), 5px 4px 0px rgb(13, 159, 185),7px 5px 0px rgb(140, 10, 226);
+}
+.one{
+    text-transform:uppercase;
+}
+.two{
+    text-transform:capitalize;
+}
+.three{
+    text-transform:lowercase;
+}
+
+.a1, .a2, .a3{
+    font-size: 20px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin: 10px auto;
+}
+.a2{
+    white-space: nowrap;
+    overflow: hidden;
+}
+.a3{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.ex3{
+    width: 400px;
+}
+.ex4 a{
+    background-color: rgb(6, 177, 134);
+    display: inline-block;
+    color: white;
+    text-transform: capitalize;
+    padding: 25px 35px;
+    width: auto;
+    text-decoration: none;
+    font-size: xx-large;
+    border-bottom: 10px solid rgb(2, 56, 42);
+}
