@@ -1,0 +1,52 @@
+
+.div1 , .div2 {
+    text-transform: capitalize;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding: 15px;
+    margin: 30px 450px ;
+    font-size: 20px;
+    border: 2px solid ;
+    width: 400px;
+}
+.div1{
+    border-color:rgb(255, 115, 0, 0.883) ;
+}
+.div2{
+    border-color: rgb(63, 159, 219);
+}
+.p1 , .p2 {
+    background-color: #EEE;
+    padding: inherit;
+    border : inherit;
+    
+}
+.all{
+    text-transform: capitalize;
+    font-size: 50px;
+    text-align: center;
+}
+.ze1{
+    font-family: 'Open Sans', sans-serif;
+    /* font-weight: 300;
+    font-style: italic; */
+}
+.ze2{
+    font-family: 'Cairo', sans-serif;
+    /* font-weight: 700; */
+}
+.ze3{
+    font-family: 'Jomhuria', cursive;
+        /* font-weight: 400; */
+
+}
+/* Calculation based on a root font-size of 16  pixel. */
+.ze4{
+     font-size: 3.125rem ; /*50px=3.125rem */
+}
+.ze5{
+    font-size: 2.5rem;/*40px=2.5rem */
+}
+.ze6{
+    font-size: 1.875rem;/*30px=1.875rem */
+}
